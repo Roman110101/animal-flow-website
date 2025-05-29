@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центр здоровья животных</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM17.5 14H14.5L12 19L9.5 14H6.5L12 5L17.5 14Z" fill="url(#neonGradient)"/>
+                        <defs>
+                            <linearGradient id="neonGradient" x1="12" y1="5" x2="12" y2="19" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00e6e6"/>
+                                <stop offset="1" stop-color="#007bff"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>svgator</span>
+                </a>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">TUTORIALS</a></li>
+                        <li><a href="#">PRICING</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-login">LOG IN</a>
+                    <a href="#" class="btn btn-signup">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-content">
+            <h1>Центр здоровья <br> <span class="gradient-text">животных</span></h1>
+            <p>Эта проработка доступна только избранным умам, способным видеть за гранью обыденного. Если вы здесь, значит, вы понимаете гораздо больше, чем остальные смертные. Добро пожаловать в мир совершенства!</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Start animating</a>
+                <a href="#" class="btn btn-secondary"><i class="fas fa-play-circle"></i> Watch video</a>
+            </div>
+            <div class="tags">
+                <span class="tag">SVG animations</span>
+                <span class="tag">Lottie</span>
+                <span class="tag">MP4 / MOV / WebM</span>
+                <span class="tag">GIF / APNG / WebP</span>
+                <span class="tag">and more</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctors-section">
+        <div class="container doctors-container">
+            <aside class="doctors-sidebar">
+                <h2>Врачи Vetcity</h2>
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h3>Все филиалы</h3>
+                    </div>
+                    <div class="filter-options">
+                        <button class="filter-button active">м. Алексеевская</button>
+                        <button class="filter-button">м. Народное ополчение</button>
+                    </div>
+                </div>
+                <div class="search-filter">
+                    <input type="text" placeholder="ФИО или специальность">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="specialty-filter">
+                    <ul>
+                        <li><a href="#" class="active">Анестезиология</a></li>
+                        <li><a href="#">Визуальная диагностика</a></li>
+                        <li><a href="#">Гастроэнтерология</a></li>
+                        <li><a href="#">Гематология</a></li>
+                        <li><a href="#">Дерматология</a></li>
+                        <li><a href="#">Диетология</a></li>
+                        <li><a href="#">Зоопсихология</a></li>
+                        <li><a href="#">Кардиология</a></li>
+                        <li><a href="#">Неврология</a></li>
+                        <li><a href="#">Нефрология</a></li>
+                        <li><a href="#">Онкология</a></li>
+                        <li><a href="#">Ортопедия</a></li>
+                        <li><a href="#">Офтальмология</a></li>
+                        <li><a href="#">Пульмонология</a></li>
+                        <li><a href="#">Реабилитология</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/sdgfdf.jpeg" alt="Макарова Анна Валерьевна">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Макарова Анна Валерьевна</h3>
+                        <p class="doctor-title">Заведующий отделением терапии и визуальной диагностики</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Алексеевская</span>
+                            <span class="doctor-price">7 000 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/dffgfgd.jpeg" alt="Грезина Наталия Викторовна">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Грезина Наталия Викторовна</h3>
+                        <p class="doctor-title">Ведущий ветеринарный врач терапевт-гастроэнтеролог</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Алексеевская</span>
+                            <span class="doctor-price">5 000 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/dfgsdf.jpeg" alt="Варфоломеева Анастасия Сергеевна">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Варфоломеева Анастасия Сергеевна</h3>
+                        <p class="doctor-title">Старший ветеринарный врач-терапевт</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Алексеевская</span>
+                            <span class="doctor-price">4 000 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/rytrfdg.jpeg" alt="Иванов Иван Иванович">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Иванов Иван Иванович</h3>
+                        <p class="doctor-title">Хирург-ортопед</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Народное ополчение</span>
+                            <span class="doctor-price">6 500 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/sdfdsf.jpeg" alt="Петрова Ольга Николаевна">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Петрова Ольга Николаевна</h3>
+                        <p class="doctor-title">Дерматолог</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Алексеевская</span>
+                            <span class="doctor-price">5 500 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-photo-placeholder">
+                        <img src="images/doctors/dsfdsfdsf.jpeg" alt="Сидоров Павел Михайлович">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Сидоров Павел Михайлович</h3>
+                        <p class="doctor-title">Главный ветеринарный врач</p>
+                        <div class="doctor-details">
+                            <span class="doctor-location"><i class="fas fa-map-marker-alt"></i> м. Алексеевская</span>
+                            <span class="doctor-price">8 000 ₽</span>
+                        </div>
+                        <button class="btn btn-book">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-clinic-section">
+        <div class="container about-clinic-container">
+            <div class="carousel-block">
+                <div class="carousel-images">
+                    <img src="images/carousel/4543.jpeg" alt="Фото клиники 1" class="carousel-slide active">
+                    <img src="images/carousel/6765.jpeg" alt="Фото клиники 2" class="carousel-slide">
+                    <img src="images/carousel/675656.jpeg" alt="Фото клиники 3" class="carousel-slide">
+                </div>
+                <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="content-block">
+                <span class="section-subtitle">ВРАЧИ VETCITY CLINIC</span>
+                <h2>Наши специалисты регулярно проходят обучение и повышают свою квалификацию</h2>
+                <p>Vetcity Clinic объединяет команду профессионалов, любящих свое дело. Это выпускники ведущих высших учебных заведений в стране. В их числе — несколько кандидатов ветеринарных наук и эксперты, к которым направляют на лечение животных даже из других регионов. Компания ведет образовательный проект Vetcity Academy — это школа ассистентов, интернатура, ординатура.</p>
+                <h3>Наши врачи регулярно участвуют в:</h3>
+                <ul>
+                    <li><i class="fas fa-circle-check"></i> программах мастер-классов и стажировок;</li>
+                    <li><i class="fas fa-circle-check"></i> программах внутреннего обучения в клинике;</li>
+                    <li><i class="fas fa-circle-check"></i> отечественных и зарубежных конференциях, конгрессах.</li>
+                </ul>
+                <div class="vetcity-academy">
+                    <img src="images/vetcity-academy-logo.png" alt="Vetcity Academy Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
